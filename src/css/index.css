@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    font-size: 3.2rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.8rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+p {
+    font-size: 1.8rem;
+}
+img {
+    max-width: 100%;
+}
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.navbar img {
+    width: 4rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.nav a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+.nav :hover {
+    text-decoration: underline solid #86EBF1 3px;    
+}
