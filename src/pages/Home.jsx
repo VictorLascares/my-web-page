@@ -14,10 +14,24 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img src="/src/assets/img/myAvatar.png" className="img-fluid rounded-start" alt="..."/>
+                        <img src="/src/assets/img/myAvatar.png" className="img-fluid rounded-start" alt="Avatar"/>
                     </div>
                 </div>
             </main>
+            <section id='about' className='vh-100' style={{background: '#F4F4F4'}}>
+                <div className="h-100 container-sm py-4">
+                    <h2 className=' text-center text-uppercase'>About Me</h2>
+                    <div className="h-100 row justify-content-md-center align-items-center">
+                    <div className="col-sm-4">
+                        <img className='img-fluid' src="/src/assets/img/profile.png" alt="" />
+                    </div>
+                    <div className="col-sm-8 ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa aliquid quidem asperiores, maiores eligendi eius? Voluptatibus debitis assumenda harum autem facere cum maiores quae, consectetur dolores ipsum quis fuga odit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti distinctio non dolor quam, unde sint adipisci consequuntur, ipsa nemo, inventore temporibus nesciunt possimus. Rem excepturi quibusdam labore officia voluptatum.</p>
+                    </div>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
