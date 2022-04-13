@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import Project from './Project'
 import './portfolio.css'
 
@@ -31,6 +32,9 @@ const Portfolio = () => {
               )
             })
           }
+        </div>
+        <div className="d-grid gap-2 col-6 mx-auto mt-3">
+          <Link className='btn btn-info text-uppercase' to="works">View More</Link>
         </div>
       </div>
     </section>
