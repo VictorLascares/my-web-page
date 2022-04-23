@@ -17,11 +17,6 @@ body {
   font-size: 1.3rem;
 }
 
-@media (min-width: 992px) {
-  .nav-link:hover {
-    text-decoration: underline solid #86EBF1 3px;
-  }
-}
 textarea:focus, 
 input:focus
 {
