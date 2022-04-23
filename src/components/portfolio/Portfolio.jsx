@@ -12,11 +12,11 @@ const Portfolio = () => {
   ]
 
   return (
-    <section id='portfolio' className='py-3 vh-100'>
-      <div className="container h-100 d-flex align-items-center">
-        <div>
-          <h2 className='text-center text-uppercase'>Portfolio</h2>
-          <div className="projects p-3">
+    <section id='portfolio' className='py-5 my-5'>
+      <div className="container-fluid d-flex align-items-center h-100">
+        <div className='w-100'>
+          <h2 className='text-center text-uppercase mb-3'>Portfolio</h2>
+          <div className="projects">
             {
               projects.map(project => {
                 return(
@@ -31,8 +31,8 @@ const Portfolio = () => {
               })
             }
           </div>
-          <div className="d-grid gap-2 col-6 mx-auto">
-            <Link className='btn btn-info text-uppercase' to="works">View More</Link>
+          <div className="d-grid gap-2 col-6 mx-auto mt-4">
+            <Link className='btn btn-dark text-info text-uppercase rounded-0' to="works">View More</Link>
           </div>
         </div>
       </div>

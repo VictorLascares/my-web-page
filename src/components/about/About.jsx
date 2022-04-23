@@ -2,12 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section id='about' className='vh-100' style={{ background: '#F4F4F4' }}>
+    <section id='about' className='py-5 mb-5' style={{ background: '#F4F4F4' }}>
         <div className="container-sm h-100 d-flex align-items-center">
           <div>
             <div className="row">
               <div className="col-12">
-                <h2 className=' text-center text-uppercase'>About Me</h2>
+                <h2 className=' text-center text-uppercase mb-3'>About Me</h2>
               </div>
             </div>
             <div className="row align-items-center">
