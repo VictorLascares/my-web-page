@@ -1,14 +1,17 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import Img1 from '/src/assets/img/project1.png'
+import Img2 from '/src/assets/img/project2.png'
+import Img3 from '/src/assets/img/project3.png'
 import Project from './Project'
 import './portfolio.css'
 
 const Portfolio = () => {
 
   const projects = [
-    {"id": "1","name": "Project 1", "tecnologies": "Html - Css - Javascript", "image": "/src/assets/img/project1.png", "code": "https://github.com/VictorLascares"},
-    {"id": "2","name": "Project 2", "tecnologies": "Html - Css - Javascript", "image": "/src/assets/img/project2.png", "code": "https://github.com/VictorLascares"},
-    {"id": "3","name": "Project 3", "tecnologies": "Html - Css - Javascript", "image": "/src/assets/img/project3.png", "code": "https://github.com/VictorLascares"},
+    {"id": "1","name": "Project 1", "tecnologies": "Html - Css - Javascript", "image": Img1, "code": "https://github.com/VictorLascares"},
+    {"id": "2","name": "Project 2", "tecnologies": "Html - Css - Javascript", "image": Img2, "code": "https://github.com/VictorLascares"},
+    {"id": "3","name": "Project 3", "tecnologies": "Html - Css - Javascript", "image": Img3, "code": "https://github.com/VictorLascares"},
   ]
 
   return (
