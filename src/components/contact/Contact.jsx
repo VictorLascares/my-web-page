@@ -2,10 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id='contact' className='py-3'>
-      <div className="container">
-        <h2 className='text-uppercase text-center'>Contact</h2>
+    <section id='contact' className='py-3 vh-100 mt-5'>
+      <div className="container h-100 d-flex align-items-center justify-content-center">
         <form className='row g-3 py-4' action="">
+          <h2 className='text-uppercase text-center'>Contact</h2>
           <div className="col-md-6">
             <div className="form-floating mb-3">
               <input type="text" className="form-control border-info" id="inputName" placeholder="Name" style={{background: "#F4F4F4"}} />
@@ -24,7 +24,7 @@ const Contact = () => {
               <label htmlFor="textareaMessage">Message</label>
             </div>
           </div>
-          <div className="d-flex justify-content-end">
+          <div className="d-flex justify-content-end mt-4">
             <button className='btn btn-info text-uppercase' type="submit">Send</button>
           </div>
         </form>
