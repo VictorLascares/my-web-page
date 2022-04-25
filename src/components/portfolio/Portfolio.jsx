@@ -15,7 +15,7 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio' className='py-5 my-5'>
-      <div className="container-fluid d-flex align-items-center h-100">
+      <div className="container-lg d-flex align-items-center h-100">
         <div className='w-100'>
           <h2 className='text-center text-uppercase mb-3'>Portfolio</h2>
           <div className="projects">
