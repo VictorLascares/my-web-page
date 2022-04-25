@@ -1,13 +1,38 @@
-import React from 'react'
+import { useEffect, useRef } from 'react'
+import Typed from 'typed.js'
 import Avatar from '/src/assets/img/myAvatar.png'
 
 const Cover = () => {
+
+  // Create Ref element.
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [" Web Developer"],
+      typeSpeed: 200,
+      backSpeed: 0,
+      backDelay: 500,
+      startDelay: 1000,
+      loop: true
+    });
+
+    // Destroying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
+
+
   return (
     <div className="row g-0">
       <div className="col-md-6 d-flex align-items-center">
         <div className="card-body d-flex flex-column align-items-center">
           <h1 className="card-title d-flex flex-column text-uppercase h3">My Name is <span className='h1 fw-bold'>Victor Lascares</span></h1>
-          <p className="card-text bg-info  d-inline p-2 text-uppercase h4">I'm Web Developer</p>
+          <div className='bg-info p-2 h4'>
+            <p ref={el} className="card-text d-inline text-uppercase "></p>
+          </div>
         </div>
       </div>
       <div className="col-md-5">

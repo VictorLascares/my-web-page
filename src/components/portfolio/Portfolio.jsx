@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import Img1 from '/src/assets/img/project1.png'
 import Img2 from '/src/assets/img/project2.png'
 import Img3 from '/src/assets/img/project3.png'
@@ -35,7 +34,7 @@ const Portfolio = () => {
             }
           </div>
           <div className="d-grid gap-2 col-6 mx-auto mt-4">
-            <Link className='btn btn-dark text-info text-uppercase rounded-0' to="works">View More</Link>
+            <a className='btn btn-dark text-info text-uppercase rounded-0' href="https://github.com/VictorLascares" target="_blank">View More</a>
           </div>
         </div>
       </div>

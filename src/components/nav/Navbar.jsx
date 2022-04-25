@@ -20,7 +20,7 @@ const Navbar = () => {
               <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="btn btn-info rounded-0">
-              <Link style={{fontSize: '1.3rem'}} className="text-uppercase text-decoration-none text-dark" to={Curriculum} target='_blank'>My cv</Link>
+              <a style={{fontSize: '1.3rem'}} className="text-uppercase text-decoration-none text-dark" href={Curriculum} target='_blank'>My cv</a>
             </li>
           </ul>
         </div>
