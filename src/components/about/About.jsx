@@ -1,4 +1,5 @@
 import React from 'react'
+import './about.css'
 import Profile from '/src/assets/img/profile.png'
 
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
               </div>
             </div>
             <div className="row align-items-center">
-              <div className="col-sm-4 text-center">
+              <div className="profile col-sm-4 text-center">
                 <img className='img-fluid' src={Profile} alt="Imagen de Perfil" width={'250px'} />
               </div>
               <div className="col-sm-8 ">
