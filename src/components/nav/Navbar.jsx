@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from '/src/assets/img/Logo.svg'
-import Curriculum from '/src/assets/pdf/CV_VictorLascares.pdf'
+import Resume from '/src/assets/pdf/CV_VictorLascares.pdf'
 
 
 const Navbar = () => {
@@ -19,8 +19,17 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/">Home</Link>
             </li>
+            <li className="nav-item">
+              <a href="#about" className="nav-link">About</a>
+            </li>
+            <li className="nav-item">
+              <a href="#portfolio" className="nav-link">Portfolio</a>
+            </li>
+            <li className="nav-item">
+              <a href="#contact" className="nav-link">Contact</a>
+            </li>
             <li className="btn btn-info rounded-0">
-              <a style={{fontSize: '1.3rem'}} className="text-uppercase text-decoration-none text-dark" href={Curriculum} target='_blank'>My cv</a>
+              <a style={{fontSize: '1.3rem'}} className="text-uppercase text-decoration-none text-dark" href={Resume} target='_blank'>Resume</a>
             </li>
           </ul>
         </div>

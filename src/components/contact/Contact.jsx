@@ -21,19 +21,19 @@ const Contact = () => {
           <h2 className='text-uppercase text-center'>Contact</h2>
           <div className="col-md-6">
             <div className="form-floating mb-3">
-              <input name='from_name' type="text" className="form-control border-secondary rounded-0" id="inputName" placeholder="Name" style={{ background: "#F4F4F4" }} />
+              <input required name='from_name' type="text" className="form-control border-secondary rounded-0" id="inputName" placeholder="Name" style={{ background: "#F4F4F4" }} />
               <label htmlFor="inputName">Name</label>
             </div>
           </div>
           <div className="col-md-6">
             <div className="form-floating mb-3">
-              <input name='from_email' type="email" className="form-control border-secondary rounded-0" id="inputEmail" placeholder="name@example.com" style={{ background: "#F4F4F4" }} />
+              <input required name='from_email' type="email" className="form-control border-secondary rounded-0" id="inputEmail" placeholder="name@example.com" style={{ background: "#F4F4F4" }} />
               <label htmlFor="inputEmail">Email address</label>
             </div>
           </div>
           <div className="col-12">
             <div className="form-floating">
-              <textarea name='message' className="form-control border-secondary rounded-0" placeholder="Leave a message here" id="textareaMessage" style={{ height: "200px", background: "#F4F4F4", resize: 'none' }}></textarea>
+              <textarea name='message' className="form-control border-secondary rounded-0" placeholder="Leave a message here" id="textareaMessage" style={{ height: "200px", background: "#F4F4F4", resize: 'none' }} required></textarea>
               <label htmlFor="textareaMessage">Message</label>
             </div>
           </div>

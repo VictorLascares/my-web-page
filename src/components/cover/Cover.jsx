@@ -29,7 +29,7 @@ const Cover = () => {
     <div className="row g-0">
       <div className="col-md-6 d-flex align-items-center">
         <div className="card-body d-flex flex-column align-items-center">
-          <h1 className="card-title d-flex flex-column text-uppercase h3">My Name is <span className='h1 fw-bold'>Victor Lascares</span></h1>
+          <h1 className="card-title d-flex flex-column text-uppercase h3">HI There I'm <span className='h1 fw-bold'>Victor Lascares</span></h1>
           <div className='bg-info p-2 h4'>
             <p ref={el} className="card-text d-inline text-uppercase "></p>
           </div>
