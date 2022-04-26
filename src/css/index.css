@@ -18,9 +18,17 @@ body {
 }
 
 textarea:focus, 
-input:focus
+input:focus,
+button:focus,
+a:focus
 {
   outline:0px !important;
   -webkit-appearance:none;
   box-shadow: none !important;
+}
+
+.dark-mode-btn {
+  position: fixed;
+  bottom: 15rem;
+  right: 1rem;
 }

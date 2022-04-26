@@ -28,8 +28,10 @@ const Navbar = () => {
             <li className="nav-item">
               <a href="#contact" className="nav-link">Contact</a>
             </li>
-            <li className="btn btn-info rounded-0">
-              <a style={{fontSize: '1.3rem'}} className="text-uppercase text-decoration-none text-dark" href={Resume} target='_blank'>Resume</a>
+            <li className="btn btn-outline-info rounded-0 py-1 px-3">
+              <a style={{fontSize: '1.3rem'}} className="text-light" href={Resume} target='_blank'>
+              <i className="bi bi-download"></i>
+              </a>
             </li>
           </ul>
         </div>

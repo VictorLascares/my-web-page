@@ -7,6 +7,18 @@ import Contact from '../components/contact/Contact'
 import Footer from '../components/footer/Footer'
 
 const Home = () => {
+
+  const darkMode = (e) => {
+    const darkModebtn = e.target
+    if (darkModebtn.classList.contains('bi-moon')) {
+      darkModebtn.classList.remove('bi-moon')
+      darkModebtn.classList.add('bi-sun')
+    } else {
+      darkModebtn.classList.remove('bi-sun')
+      darkModebtn.classList.add('bi-moon')
+    }
+  }
+
   return (
     <>
       <Navbar />
@@ -15,6 +27,12 @@ const Home = () => {
       <Portfolio />
       <Contact />
       <Footer />
+      <button
+        type='button'
+        className="dark-mode-btn dark-mode btn btn-dark text-info bi bi-moon"
+        onClick={darkMode}
+      >
+      </button>
     </>
       
   )
