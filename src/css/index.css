@@ -24,3 +24,10 @@ input:focus
   -webkit-appearance:none;
   box-shadow: none !important;
 }
+
+.btn-dark:hover {
+  background-color: #31d2f2;
+  color: #000;
+  border-color: #31d2f2;
+  transition: background-color 1s, border-color 1s, color 1s;
+}

@@ -6,7 +6,7 @@ import Resume from '/src/assets/pdf/CV_VictorLascares.pdf'
 
 const Navbar = () => {
   return (
-    <div className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img src={Logo} alt="" width="40" />

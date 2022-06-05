@@ -34,7 +34,7 @@ const Portfolio = () => {
             }
           </div>
           <div className="d-flex justify-content-center mx-auto mt-4">
-            <a className='btn btn-dark text-info text-uppercase rounded-0 py-2 px-5' href="https://github.com/VictorLascares" target="_blank">View More</a>
+            <a className='btn btn-dark text-uppercase rounded-0 py-2 px-5' href="https://github.com/VictorLascares" target="_blank">View More</a>
           </div>
         </div>
       </div>

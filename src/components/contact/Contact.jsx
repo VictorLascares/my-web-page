@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="d-flex justify-content-end mt-4">
-            <button className='btn btn-dark text-uppercase text-info rounded-0' type="submit">Send</button>
+            <button className='btn btn-dark text-uppercase rounded-0' type="submit">Send</button>
           </div>
         </form>
       </div>
