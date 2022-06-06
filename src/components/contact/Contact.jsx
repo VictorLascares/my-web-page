@@ -16,8 +16,8 @@ const Contact = () => {
 
   return (
     <section id='contact' className='py-5 my-5'>
-      <div className="container d-flex align-items-center justify-content-center">
-        <form className='row g-3 py-4' ref={form} onSubmit={sendEmail}>
+      <div className="container d-flex align-items-center justify-content-center py-5">
+        <form className='row g-3' ref={form} onSubmit={sendEmail}>
           <h2 className='text-uppercase text-center'>Contact</h2>
           <div className="col-md-6">
             <div className="form-floating mb-3">

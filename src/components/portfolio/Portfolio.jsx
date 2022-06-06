@@ -14,10 +14,10 @@ const Portfolio = () => {
   ]
 
   return (
-    <section id='portfolio' className='py-5 my-5'>
+    <section id='portfolio' className='py-5 my-5' style={{ background: '#F4F4F4' }}>
       <div className="container-lg d-flex align-items-center h-100">
         <div className='w-100'>
-          <h2 className='text-center text-uppercase mb-3'>Portfolio</h2>
+          <h2 className='text-center text-uppercase mt-4 mb-3'>Portfolio</h2>
           <div className="projects">
             {
               projects.map(project => {

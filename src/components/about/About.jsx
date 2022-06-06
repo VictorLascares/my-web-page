@@ -9,7 +9,7 @@ const About = () => {
           <div>
             <div className="row">
               <div className="col-12">
-                <h2 className=' text-center text-uppercase mb-3'>About Me</h2>
+                <h2 className=' text-center text-uppercase mb-3 mt-4'>About Me</h2>
               </div>
             </div>
             <div className="row align-items-center">

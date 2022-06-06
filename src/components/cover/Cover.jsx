@@ -9,7 +9,7 @@ const Cover = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [" Web Developer"],
+      strings: ["Frontend Developer"],
       typeSpeed: 200,
       backSpeed: 0,
       backDelay: 500,
