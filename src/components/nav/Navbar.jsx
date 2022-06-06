@@ -17,10 +17,10 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav align-items-center">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <a href="#about" className="nav-link">About</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">About</a>
+              <a href="#skills" className="nav-link">Skills</a>
             </li>
             <li className="nav-item">
               <a href="#portfolio" className="nav-link">Portfolio</a>
