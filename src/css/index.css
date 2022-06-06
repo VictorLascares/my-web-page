@@ -18,7 +18,9 @@ body {
 }
 
 textarea:focus, 
-input:focus
+input:focus,
+a:focus,
+button:focus
 {
   outline:0px !important;
   -webkit-appearance:none;
