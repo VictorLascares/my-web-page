@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
-import Avatar from '/src/assets/img/myAvatar.png'
+import Avatar from '/src/assets/img/myAvatar.webp'
 
 const Cover = () => {
 

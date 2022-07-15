@@ -1,10 +1,11 @@
 import React from 'react'
 import './about.css'
-import Profile from '/src/assets/img/profile.png'
+import Profile from '/src/assets/img/profile.webp'
 
 const About = () => {
   return (
     <section id='about' className='py-5 mb-5' style={{ background: '#F4F4F4' }}>
+        
         <div className="container-sm h-100 d-flex align-items-center">
           <div>
             <div className="row">
