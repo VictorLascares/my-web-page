@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Error from '../Error'
+import Error from './Error'
 import emailjs from '@emailjs/browser'
 import { Field, Form, Formik } from 'formik'
 import * as Yup from 'yup'

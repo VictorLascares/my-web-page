@@ -3,7 +3,6 @@ import Img1 from '/src/assets/img/project1.png'
 import Img2 from '/src/assets/img/project2.png'
 import Img3 from '/src/assets/img/project3.png'
 import Project from './Project'
-import './portfolio.css'
 
 const Portfolio = () => {
 

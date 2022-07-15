@@ -1,5 +1,4 @@
 import React from 'react'
-import './about.css'
 import Profile from '/src/assets/img/profile.webp'
 
 const About = () => {

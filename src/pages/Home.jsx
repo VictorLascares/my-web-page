@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/nav/Navbar'
-import Cover from '../components/cover/Cover'
-import About from '../components/about/About'
-import Skills from '../components/skills/Skills'
-import Portfolio from '../components/portfolio/Portfolio'
-import Contact from '../components/contact/Contact'
-import Footer from '../components/footer/Footer'
+import Navbar from '../components/Navbar'
+import Cover from '../components/Cover'
+import About from '../components/About'
+import Skills from '../components/Skills'
+import Portfolio from '../components/Portfolio'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
