@@ -1,10 +1,10 @@
-function App() {
+import { Header } from "./Header"
+
+export const App = () => {
 
   return (
     <>
-      <h1>My web Page</h1>
+      <Header />
     </>
   )
 }
-
-export default App
