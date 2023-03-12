@@ -172,6 +172,54 @@ img {
     background-color: var(--body-color);
 }
 
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button__icon {
+    font-size: 1.25rem;
+    margin-left: var(--m-0-5);
+    transition: 0.3s;
+}
+
+.button--white {
+    background-color: #fff;
+    color: var(--first-color);
+}
+
+.button--white:hover {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button--small {
+    padding: 0.75rem 1rem;
+}
+
+.button--link {
+    padding: 0;
+    background-color: transparent;
+    color: var(--first-color);
+}
+
+.button--link:hover {
+    background-color: transparent;
+    color: var(--first-color-alt);
+}
+
 /*==================== NAV ====================*/
 .nav {
     max-width: 968px;
@@ -179,7 +227,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 1rem;
+    padding: var(--m-1);
 }
 
 .nav__logo,
@@ -280,4 +328,37 @@ img {
 /* Change background header */
 .scroll-header {
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+/*==================== HOME ====================*/
+.home__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+ 
+@media (min-width: 767px) {
+    .home__container {
+        flex-direction: row;
+    }
+}
+
+.home__img {
+    max-width: 200px;
+}
+
+.home__title {
+    font-size: var(--big-font-size);
+}
+
+.home__subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--text-color);
+    font-weight: var(--font-regular);
+}
+
+.home__buttons {
+    display: flex;
+    gap: .5rem;
 }
