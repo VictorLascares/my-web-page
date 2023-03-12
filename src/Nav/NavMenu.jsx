@@ -8,7 +8,7 @@ const menu = [
     { name: "Contact", icon: "send" },
 ];
 
-export const NavMenu = () => {
+export const NavMenu = ({ handleCloseMenu }) => {
     return (
         <div className="nav__menu" id="nav-menu">
             <ul className="nav__list grid">
@@ -21,7 +21,11 @@ export const NavMenu = () => {
                     )
                 }
             </ul>
-            <i className="bi bi-x-square nav__close" id="nav-close"></i>
+            <i 
+                className="bi bi-x-square nav__close" 
+                id="nav-close"
+                onClick={ handleCloseMenu }
+            ></i>
         </div>
     );
 };
