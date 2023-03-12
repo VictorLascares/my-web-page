@@ -1,4 +1,4 @@
-import { NavMenu, NavButtons } from "./Nav";
+import { NavMenu, NavButtons } from "../Nav";
 
 const handleShowMenu = () => document.querySelector('#nav-menu').classList.add('show-menu');
 const handleCloseMenu = () => document.querySelector('#nav-menu').classList.remove('show-menu');
