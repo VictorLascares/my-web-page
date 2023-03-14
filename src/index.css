@@ -569,48 +569,26 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__html {
+
+
+.skills__percentage--90 {
     width: 90%;
 }
 
-.skills__css {
+.skills__percentage--80 {
     width: 80%;
 }
 
-.skills__js {
-    width: 60%;
-}
-
-.skills__react {
-    width: 85%;
-}
-
-.skills__php {
-    width: 80%;
-}
-
-.skills__node {
+.skills__percentage--70 {
     width: 70%;
 }
 
-.skills__firebase {
-    width: 90%;
+.skills__percentage--60 {
+    width: 60%;
 }
 
-.skills__python {
-    width: 55%;
-}
-
-.skills__figma {
-    width: 90%;
-}
-
-.skills__sketch {
-    width: 85%;
-}
-
-.skills__photoshop {
-    width: 85%;
+.skills__percentage--50 {
+    width: 50%;
 }
 
 .skills__close .skills__list {

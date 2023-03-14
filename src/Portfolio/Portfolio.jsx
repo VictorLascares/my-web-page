@@ -1,6 +1,5 @@
 import Porfolio1 from "../assets/img/portfolio1.jpg";
 import Porfolio2 from "../assets/img/portfolio2.jpg";
-import Porfolio3 from "../assets/img/portfolio3.jpg";
 
 export const Portfolio = () => {
     return (
