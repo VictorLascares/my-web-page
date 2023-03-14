@@ -25,7 +25,7 @@ export const Home = () => {
                                 Trabaja conmingo
                             </a>
                             <a
-                                href="#projects"
+                                href="#portfolio"
                                 className="button button__secundary">
                                 Mira mi último trabajo
                             </a>

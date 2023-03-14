@@ -10,13 +10,13 @@ export const Footer = () => {
 
                     <ul className="footer__links">
                         <li>
-                            <a href="#services" className="footer__link">Habilidades</a>
+                            <a href="#skills" className="footer__link">Habilidades & Tecnologias</a>
                         </li>
                         <li>
                             <a href="#portfolio" className="footer__link">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#contact" className="footer__link">Contactame</a>
+                            <a href="#about" className="footer__link">Acerca De</a>
                         </li>
                     </ul>
 
