@@ -50,23 +50,18 @@ export const Contact = () => {
                     </div>
 
                     <div className="contact__content">
-                        <label className="contact__label">Proyecto</label>
-                        <input type="text" className="contact__input" />
-                    </div>
-
-                    <div className="contact__content">
                         <label className="contact__label">Mensaje</label>
                         <textarea
                             name=""
                             id=""
                             cols="0"
-                            rows="7"
+                            rows="5"
                             className="contact__input"
                         ></textarea>
                     </div>
 
                     <div>
-                        <a href="#" className="button button--flex">
+                        <a href="#" className="button button__primary button--flex">
                             Enviar mensaje
                             <i className="bi bi-send button__icon"></i>
                         </a>

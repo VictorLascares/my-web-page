@@ -22,21 +22,21 @@ export const Footer = () => {
 
                     <div className="footer__social">
                         <a
-                            href="https://www.facebook.com/"
+                            href="https://github.com/VictorLascares"
                             target="_blank"
                             className="footer__social"
                         >
-                            <i className="bi bi-facebook"></i>
+                            <i className="bi bi-github"></i>
                         </a>
                         <a
-                            href="https://www.instagram.com/"
+                            href="https://www.linkedin.com/in/victorlascares"
                             target="_blank"
                             className="footer__social"
                         >
-                            <i className="bi bi-instagram"></i>
+                            <i className="bi bi-linkedin"></i>
                         </a>
                         <a
-                            href="https://twitter.com/"
+                            href="https://twitter.com/victor_lascares"
                             target="_blank"
                             className="footer__social"
                         >

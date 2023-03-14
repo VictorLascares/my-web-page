@@ -24,7 +24,7 @@ export const Portfolio = () => {
                         </p>
                         <a
                             href="#"
-                            className="button button--flex button--small portfolio__button"
+                            className="button button__primary button--flex"
                         >
                             Demo
                             <i className="bi bi-arrow-right button__icon"></i>
@@ -47,30 +47,7 @@ export const Portfolio = () => {
                         </p>
                         <a
                             href="#"
-                            className="button button--flex button--small portfolio__button"
-                        >
-                            Demo
-                            <i className="bi bi-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="portfolio__content grid swiper-slide">
-                    <img
-                        src={Porfolio3}
-                        alt=""
-                        className="portfolio__img"
-                    />
-
-                    <div className="portfolio__data">
-                        <h3 className="portfolio__title">Online Store</h3>
-                        <p className="portfolio__description">
-                            Website adaptable to all devices, with ui components and
-                            animated interactions
-                        </p>
-                        <a
-                            href="#"
-                            className="button button--flex button--small portfolio__button"
+                            className="button button__primary button--flex"
                         >
                             Demo
                             <i className="bi bi-arrow-right button__icon"></i>
