@@ -1,5 +1,21 @@
-import Porfolio1 from "../assets/img/portfolio1.jpg";
-import Porfolio2 from "../assets/img/portfolio2.jpg";
+import { Project } from "./Project";
+
+const projects = [
+    {
+        id: "aadalsdj",
+        name: "Modern Website",
+        description: "Website adaptable to all devices, with ui components and animated interactions",
+        image: "portfolio1",
+        link: "https://example.github.com"
+    },
+    {
+        id: "jaldasd",
+        name: "Brand Design",
+        description: "Website adaptable to all devices, with ui components and animated interactions",
+        image: "portfolio2.jpg",
+        link: "https://example.github.com"
+    }
+]
 
 export const Portfolio = () => {
     return (
@@ -8,51 +24,14 @@ export const Portfolio = () => {
             <span className="section__subtitle">Trabajos mas recientes</span>
 
             <div className="portfolio__container container grid">
-                <div className="portfolio__content grid">
-                    <img
-                        src={Porfolio1}
-                        alt=""
-                        className="portfolio__img"
-                    />
-
-                    <div className="portfolio__data">
-                        <h3 className="portfolio__title">Modern Website</h3>
-                        <p className="portfolio__description">
-                            Website adaptable to all devices, with ui components and
-                            animated interactions
-                        </p>
-                        <a
-                            href="#"
-                            className="button button__primary button--flex"
-                        >
-                            Demo
-                            <i className="bi bi-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="portfolio__content grid">
-                    <img
-                        src={Porfolio2}
-                        alt=""
-                        className="portfolio__img"
-                    />
-
-                    <div className="portfolio__data">
-                        <h3 className="portfolio__title">Brand Design</h3>
-                        <p className="portfolio__description">
-                            Website adaptable to all devices, with ui components and
-                            animated interactions
-                        </p>
-                        <a
-                            href="#"
-                            className="button button__primary button--flex"
-                        >
-                            Demo
-                            <i className="bi bi-arrow-right button__icon"></i>
-                        </a>
-                    </div>
-                </div>
+                {
+                    projects.map( project => 
+                        <Project 
+                            key={project.id} 
+                            project={project}
+                        />
+                    )
+                }
             </div>
         </section>
     );

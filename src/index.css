@@ -221,7 +221,7 @@ img {
 }
 
 .button__secundary::after {
-    background-color: rgba(240,240,240,0.5);
+    background-color: hsla(var(--main-color), 70%, 96%, 0.5)
 }
 
 .button:hover::after {
