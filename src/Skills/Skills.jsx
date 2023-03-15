@@ -1,4 +1,4 @@
-import { Skill } from "./Skill";
+import { SkillItem } from "./SkillItem";
 
 
 const habilities = [
@@ -35,7 +35,7 @@ export const Skills = () => {
             <div className="skills__container container grid">
                 {
                     habilities.map(hability => 
-                        <Skill 
+                        <SkillItem 
                             key={hability.id} 
                             data={hability}
                         />
